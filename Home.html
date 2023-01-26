@@ -5,24 +5,88 @@
         <title>Chess Tutorial</title>
     </head>
     <body>
+
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+              background-color: white;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+
+
         <div id="intro" style="background-color: rgb(0, 0, 0); -webkit-text-fill-color: rgb(255, 255, 255); width:80%; height: 60%; margin:auto; outline-color: rgb(0, 80, 76);">
         <center>
-            <h1> Chess Tutorial Video Project </h1>
+            <h1> ♖♔ Chess Tutorial Video Project ♕♖ </h1>
             <video width="720" height="340" controls>
                 <source src="Chess_Vid_ig.mp4" type="video/mp4">
             </video>
         </center>
         </div>
-        <center><div id="facts" style="background-color: rgb(0,225,255); -webkit-text-fill-color:black; width:80%; height:60%; margin: 10px">
-            <p>here is some cool facts about twitter!</p>
+        <center>
+            <div id="facts" style="background-color: rgb(0,225,255); -webkit-text-fill-color:black; width:80%; height:20%; margin: 10px">
+            <h3>Here is How to play chess</h3>
             <l>
-                <li>1. placeholder </li>
-                <li>2. placeholder </li>
-                <li>3. placeholder </li>
-                <li>4. placeholder </li>
+                <li>1. Learn how the pieces move, use the video to learn if needed.</li>
+                <li>2. Study chess theory, learn openings, and ways to checkmate, such as the Scholar's Mate which you can learn from the video above. </li>
+                <li>3. Chess requires an opponent, use chess.com or make friends (probably for your first time) </li>
+                <li>4. Play a game, win maybe, and become a grandmaster </li>
             </l>
-            <p>click here to read more (this dosent go anywhere so i didn't link it.)</p>
+            <a href="Chess.com"> Link to Chess.com </a>
+            <a href="youtube.com">Link to Youtube</a>
         </div>
-        </center>
+        <div id="table" style="background-color: rgb(255, 255, 255); -webkit-text-fill-color:black; width:80%; height:40%; margin: 10px">
+            
+            <table>
+                <tr>
+                  <th>piece</th>
+                  <th>movement</th>
+                  <th>importance</th>
+                </tr>
+                <tr>
+                  <td>Pawn</td>
+                  <td>Moves forward two on his first move, the one for the rest of the game.</td>
+                  <td>worth 1 point</td>
+                </tr>
+                <tr>
+                    <td>Knight</td>
+                    <td>Moves in L shapes, can jump over other pieces</td> 
+                    <td>worth 3 points</td>
+                </tr>
+                <tr>
+                    <td>Bishop</td>
+                    <td>moves diagnonally</td>
+                    <td>Worth 3 points</td>
+                </tr>
+                <tr>
+                    <td>Rook</td>
+                    <td>moves in straight lines</td>
+                    <td>worth 5 points</td>
+                </tr>
+                <tr>
+                    <td>Queen</td>
+                    <td>moves like every other piece except the Knight</td>
+                    <td>worth 7 points</td>
+                </tr>
+                <tr>
+                    <td>King</td>
+                    <td>moves one space in any direction </td>
+                    <td>worth everything, defend at all costs</td>
+                </tr>
+            </table>
+        </div>
+        
+    </center>
     </body>
 </html>
